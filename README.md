@@ -2,10 +2,6 @@
 
 ### Open-source formwork elevation reference stake system
 
-**The thing you're protecting isn't the plastic.** Anyone with calipers and a printer can clone a stake in an afternoon. The IP is the *system* — the PE-stamped elevation exhibit, the field methodology, the service bundle, the brand. None of that lives in an STL file.
-
----
-
 TideMark is a 3D-printable field tool that helps contractors set formwork to the correct elevation — without a surveyor on site. It turns a dumb rebar stake into a precision elevation reference with integrated ruler, stringline attachment, and sliding target marker.
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
