@@ -6,6 +6,16 @@ TideMark is a 3D-printable field tool that helps contractors set formwork to the
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
 
+## Build What the Site Actually Needs
+
+In construction and engineering, teams often deliver the *medium* instead of the *outcome*.
+
+The medium is familiar: a plan sheet, a note, or an elevation certificate. Those documents matter, but they are not the end goal.
+
+The real goal is simple: the people in the field need to know the exact elevation of grade, formwork, or finished floor so they can build safely, accurately, and confidently — without second-guessing.
+
+TideMark is designed around that reality. It takes the engineer's elevation intent and turns it into a physical, on-site reference that crews can act on immediately. Traditional exhibits and certificates still have their place; TideMark reduces the friction between "information delivered" and "work built correctly."
+
 ## The Problem
 
 Contractors building slabs, accessory structures, and ADUs near flood zones need to hit a specific Finished Floor Elevation (FFE). Today, the typical workflow is:
@@ -16,7 +26,7 @@ Contractors building slabs, accessory structures, and ADUs near flood zones need
 4. Forms get set wrong
 5. Everyone has a bad day
 
-There is no affordable, standardized field tool that bridges the gap between a PE's elevation determination and the contractor's formwork.
+There is no affordable, standardized field tool that reliably bridges the gap between a PE's elevation determination and the contractor's hands in the field.
 
 **TideMark fixes that.**
 
@@ -30,7 +40,7 @@ TideMark is not just a stake — it's a field reference system with three compon
 | **Formwork Elevation Reference Exhibit (FERE)** | PE-stamped elevation determination document | [Service from Oasis Engineering](https://oasisengineering.com) |
 | **Field Methodology Guide** | Step-by-step photo-documented workflow | [`/docs/field-guide.md`](docs/field-guide.md) |
 
-The stake is the delivery mechanism. The exhibit is the product. The methodology ties them together.
+The stake is the field interface. The exhibit provides engineering intent. The methodology connects both so the right elevation gets built, not just documented.
 
 ## How It Works
 
