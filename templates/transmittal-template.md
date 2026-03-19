@@ -2,7 +2,7 @@
 
 ## Usage
 
-Send with the completed exhibit and TideMark kit. Replace all [BRACKETED] items.
+Send with the completed exhibit after site visit and stake installation. Replace all [BRACKETED] items.
 
 ---
 
@@ -34,10 +34,15 @@ P: 813-694-8989
 | Item | Format | Qty |
 |------|--------|-----|
 | Formwork Elevation Reference Exhibit (Sheet A.1) | PDF (PE-stamped) | 1 |
-[| TideMark Elevation Reference Stakes | Physical | [NUMBER] |]
-[| TideMark Sliding Target Collars | Physical | [NUMBER] |]
-[| TideMark Field Guide (instruction card) | Printed / PDF | 1 |]
-[| Rebar stakes (3/4" × 18", pointed) | Physical | [NUMBER] |]
+
+### Already Installed on Site
+
+The following items were installed during our site visit on [SITE VISIT DATE]:
+
+| Item | Qty | Location |
+|------|-----|----------|
+| TideMark elevation reference stake (set to FFE offset) | [NUMBER] | See exhibit site plan for positions |
+| Laminated field guide / instruction card | 1 | Attached to Stake [A/1] |
 
 ---
 
@@ -48,26 +53,27 @@ Attached is the Formwork Elevation Reference Exhibit for the proposed [STRUCTURE
 **Key information for your contractor:**
 
 - **Required Finished Floor Elevation (FFE):** [XXX.XX]' NAVD88 or higher
-- **Primary field reference benchmark:** [BENCHMARK ID] at [XXX.XX]' NAVD88
-- **Offset from primary benchmark to FFE:** [+X.XX ft / +XX inches]
+- **TideMark stakes installed:** [NUMBER] stakes at benchmark locations shown on exhibit
+- **Primary field reference:** Stake [A/B] at [LOCATION DESCRIPTION]
 - **Flood zone:** [ZONE DESIGNATION]
 
-[A TideMark field reference stake kit is included. The contractor should set the TideMark collar to **[XX] inches** above [BENCHMARK ID] to establish the minimum FFE. See the enclosed field guide for step-by-step instructions.]
+The TideMark stakes are already installed and set to the correct FFE offset. The contractor ties stringline to the eye bolts and sets forms to that line. No elevation measurement by the contractor is required — the stakes are ready to use as installed.
 
 ### Contractor Action Required Before Pour
 
 Per the exhibit's general notes, the contractor must provide the following **before concrete placement:**
 
-1. Photo documentation of TideMark stake position showing collar at specified offset
-2. Photo of tape measurement from benchmark to top of form
+1. Photo of each TideMark stake showing lock screw position is undisturbed
+2. Photo of tape measurement from stake graduation mark to top of form
 3. Overall photo of formwork with stringline visible
 
-Send photos to [ENGINEER EMAIL / PHONE] for verification. Do not proceed with concrete placement until verification is confirmed.
+Send photos to [ENGINEER EMAIL / PHONE] for verification. **Do not proceed with concrete placement until verification is confirmed.**
 
 ### Important Reminders
 
 - This exhibit is a **reference tool**, not a survey. The contractor is responsible for verifying all field conditions and elevations prior to construction.
-- Benchmark elevations were valid at the time of observation ([DATE]). If the site has been graded or disturbed since that date, contact the engineer before using the benchmarks.
+- TideMark stakes were set on [SITE VISIT DATE]. If the site has been graded or disturbed since that date, **stop and contact the engineer** — the stakes may need to be re-evaluated.
+- **Do not move, re-drive, or adjust the TideMark stakes.** If a stake has been disturbed (knocked, tilted, pulled, or run over), contact the engineer before using it as a reference.
 - The elevation verification tolerance is **±0.05 ft** unless noted otherwise on the exhibit.
 - If any field conditions differ from the exhibit, **stop and contact the engineer** before proceeding.
 

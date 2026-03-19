@@ -32,6 +32,14 @@ methodology used. Typical vertical accuracy: ±0.05 ft under favorable
 conditions.
 ```
 
+### When Using Differential Leveling
+
+```
+Benchmark elevations were determined via differential leveling on [DATE]
+using [EQUIPMENT]. Observed elevations are referenced to NAVD88. Typical
+vertical accuracy: ±0.01 ft. Closing error on level loop: [X.XX] ft.
+```
+
 ### When Using GIS Contour Interpolation
 
 ```
@@ -73,13 +81,16 @@ Third-party data is used for reference purposes only.
 ## TideMark Stake Disclaimer
 
 ```
-The TideMark field reference stake provided with this exhibit is a
-layout aid intended to assist the contractor in establishing formwork
-elevation. It is not a precision surveying instrument. The contractor
-is solely responsible for verifying that formwork elevations meet the
-requirements specified in this exhibit and in the project documents.
-Oasis Engineering, LLC assumes no liability for construction errors
-resulting from misuse or misreading of the TideMark stake.
+TideMark elevation reference stakes installed on site are layout aids
+intended to assist the contractor in establishing formwork elevation.
+They are not precision surveying instruments. The contractor is solely
+responsible for verifying that formwork elevations meet the requirements
+specified in this exhibit and in the project documents. Do not move,
+re-drive, or adjust installed TideMark stakes. If a stake appears
+disturbed (knocked, tilted, pulled, or run over), contact the engineer
+before using it as a reference. Oasis Engineering, LLC assumes no
+liability for construction errors resulting from use of disturbed,
+moved, or misread TideMark stakes.
 ```
 
 ## Limitation of Use
@@ -97,5 +108,5 @@ consequences arising from such third-party use.
 - Place the standard disclaimer prominently on the exhibit — typically in the general notes block or in a dedicated notes area.
 - Benchmark methodology disclaimer should appear in the Elevation Control Notes section.
 - Flood zone disclaimer should appear adjacent to the FEMA FIRM exhibit.
-- TideMark disclaimer is only needed when a stake kit is provided with the exhibit.
+- TideMark disclaimer should be included on every exhibit where stakes were installed on site.
 - Limitation of use language may also be included in the transmittal letter.

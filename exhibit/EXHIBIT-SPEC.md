@@ -19,18 +19,18 @@ A complete FERE consists of the following sheets/exhibits:
 
 ### 1. Site Plan Exhibit
 
-**Purpose:** Show the property, proposed building location, and benchmark positions in plan view.
+**Purpose:** Show the property, proposed building location, and installed TideMark benchmark positions in plan view.
 
 **Required elements:**
 - Property boundaries with dimensions (from GIS/county records)
 - Parcel number and owner of record
 - Proposed building footprint with setback dimensions
 - Existing structures and improvements
-- Benchmark locations (labeled: Screw A, Screw B, Electrical Post, etc.)
+- Installed TideMark stake locations (labeled: Stake A, Stake B, etc.)
 - North arrow and graphic scale
 - Street names and access
 
-**Data sources:** County GIS, county property appraiser, Google Earth, client-provided site photos
+**Data sources:** County GIS, county property appraiser, Google Earth, field observations
 
 ### 2. Elevation Control Notes
 
@@ -62,25 +62,14 @@ ELEVATION CONTROL NOTES
 
 • This exhibit is intended as a reference tool only and shall not be used
   as a substitute for survey or construction documents. This exhibit is
-  prepared for the use of [CLIENT NAME], Inc. for elevation reference.
+  prepared for the use of [CLIENT NAME] for elevation reference.
   Use by others is not intended without engineer review.
 
-• Finished Floor Elevation (FFE) shall be set at [XXX.XX] or higher.
-
-• Observed reference points include:
-  - [BENCHMARK A]: [ELEVATION] NAVD88
-  - [BENCHMARK B]: [ELEVATION] NAVD88
-  - [BENCHMARK C]: [ELEVATION] NAVD88
-
-• Contractor shall establish final grading, formwork, and elevation
-  control necessary to achieve required FFE in accordance with project
-  documents.
-
-• No representation is made regarding existing or future site grading
-  conditions.
-
-• [BENCHMARK] may be used as a convenient field reference for
-  establishing minimum FFE, subject to contractor verification.
+• TideMark elevation reference stakes were installed on [DATE] at the
+  locations shown on the site plan. Stakes were set to the FFE offset
+  heights shown in the Elevation Offset Table below. Do not move,
+  re-drive, or adjust the installed stakes. If a stake has been
+  disturbed, contact the engineer before use.
 ```
 
 ### 3. FEMA FIRM Flood Map Exhibit
@@ -97,18 +86,19 @@ ELEVATION CONTROL NOTES
 
 **Data source:** FEMA National Flood Hazard Layer (NFHL) via MSC or GIS
 
-### 4. Benchmark Photo Exhibits
+### 4. TideMark Stake Photo Exhibits
 
-**Purpose:** Give the contractor a physical thing to find on site.
+**Purpose:** Give the contractor a visual reference to confirm each installed stake is undisturbed.
 
-**Required elements per benchmark:**
-- Clear photograph of the benchmark location
-- Benchmark identifier (Screw A, Screw B, etc.)
-- Observed elevation in NAVD88
-- Description of what the benchmark is (helical screw head, concrete nail, existing post base, etc.)
-- Arrow or annotation pointing to the exact reference point in the photo
+**Required elements per stake:**
+- Clear photograph of the installed TideMark stake in its benchmark location
+- Stake identifier (Stake A, Stake B, etc.)
+- Observed benchmark elevation in NAVD88
+- Lock screw position (offset to FFE) visible in photo
+- Arrow or annotation pointing to the exact stake and surrounding context
+- Description of nearby reference features so the contractor can confirm they're at the right stake
 
-**Field methodology:** See [Benchmark Establishment](#benchmark-establishment) below.
+**These photos are taken during the site visit when the stakes are installed.**
 
 ### 5. Foundation Detail
 
@@ -116,7 +106,7 @@ ELEVATION CONTROL NOTES
 
 **Required elements:**
 - Cross-section showing existing grade, proposed slab, and FFE
-- Vertical dimension showing offset from reference benchmark to FFE
+- Vertical dimension showing offset from TideMark benchmark to FFE
 - Slab thickness and reinforcement callout
 - Grade slope notation if applicable
 - Note: "Graphic and callouts shown are for illustrative purposes only to convey relative elevation relationships."
@@ -137,40 +127,42 @@ ELEVATION CONTROL NOTES
 
 ### Methodology
 
-The FERE is based on **limited field observations** — not a full survey. Benchmarks are established using one or more of the following methods:
+The FERE is based on a **differential elevation survey** performed during the site visit. The engineer observes reference elevations and installs TideMark stakes at benchmark locations during the same visit.
 
 | Method | Accuracy | When to Use |
 |--------|----------|-------------|
 | RTK GPS observation | ±0.05 ft | Best accuracy, requires equipment |
+| Differential leveling (auto level + rod) | ±0.01 ft | High accuracy, standard survey method |
+| Total station | ±0.02 ft | Good accuracy, versatile |
 | Interpolation from survey-grade benchmarks | ±0.1 ft | When nearby NGS/city benchmarks exist |
-| GIS contour interpolation | ±0.5–1.0 ft | Screening-level only |
-| Relative measurement from known point | Varies | When one benchmark is established and others are measured relative to it |
 
-### Benchmark Types
+### TideMark Stake as Benchmark
 
-Acceptable field benchmarks include:
-- **Helical screw/anchor heads** — durable, semi-permanent, low profile
-- **Concrete nails or masonry screws** driven into existing hardscape
-- **Existing infrastructure** — electrical post bases, fire hydrant flanges, manhole rims
-- **Survey monuments** — if accessible (NGS, city benchmarks)
+In the FERE workflow, the TideMark stake serves double duty:
+- **It IS the benchmark** — driven at a location with a known observed elevation
+- **It IS the reference tool** — the graduation marks and lock screw translate that elevation into a physical target for the contractor
+
+The engineer installs the stakes during the site visit, sets the lock screw to the correct FFE offset, and photographs each one. The contractor's job is simply to confirm the stakes are undisturbed, tie stringline, and set forms.
 
 ### Benchmark Documentation
 
-For each benchmark, record:
-- Identifier (Screw A, Screw B, Post Base, etc.)
-- Elevation in NAVD88
-- Method of determination
-- Date of observation
+For each installed TideMark stake, record:
+- Identifier (Stake A, Stake B, etc.)
+- Location description and coordinates
+- Observed ground elevation at stake location in NAVD88
+- Required FFE offset (in feet and inches)
+- Lock screw position set to (in inches)
+- Date of installation
 - Photograph with annotation
 
 ### Tie to Published Benchmark (Recommended)
 
-Where possible, tie at least one field benchmark to a published reference:
+Where possible, tie at least one observation to a published reference:
 - NGS monument (datasheet from [NGS website](https://www.ngs.noaa.gov/))
 - City/county benchmark (from local survey control network)
 - USGS benchmark
 
-If no published benchmark is accessible, note the method used (e.g., "Elevation determined via RTK GPS observation on [DATE] using [EQUIPMENT/SERVICE]" or "Elevation interpolated from [COUNTY] GIS 1-foot contour data dated [YEAR]").
+If no published benchmark is accessible, note the method used (e.g., "Elevation determined via RTK GPS observation on [DATE] using [EQUIPMENT/SERVICE]").
 
 **Transparency on methodology is your protection.** State how you got the number. Don't pretend consumer GPS is survey-grade — just disclose it.
 
@@ -196,6 +188,10 @@ for reference only.
 The engineer of record assumes no responsibility for the contractor's
 means, methods, sequencing, or field procedures for achieving the
 specified finished floor elevation.
+
+TideMark stakes installed on site are reference tools only. Do not move,
+re-drive, or adjust installed stakes. If a stake appears disturbed,
+contact the engineer before use.
 ```
 
 ## Deliverable Format
@@ -210,9 +206,9 @@ specified finished floor elevation.
 
 | Service Level | Scope | Suggested Range |
 |---------------|-------|-----------------|
-| Remote only (GIS/photo-based) | No site visit, GIS contours + client photos | $600–$900 |
-| Field observation (1 visit) | Site visit, benchmark establishment, photos | $1,000–$1,500 |
-| Field + TideMark kit | Site visit + 4-stake TideMark kit | $1,200–$1,800 |
-| Full package | Field + kit + pre-pour verification review | $1,500–$2,200 |
+| Remote only (GIS/photo-based) | No site visit, GIS contours + client photos, no stakes | $600–$900 |
+| Standard FERE | Site visit, elevation survey, TideMark stake installation (2–4 stakes), exhibit | $1,200–$1,800 |
+| Full package | Standard FERE + pre-pour photo verification review | $1,500–$2,200 |
+| Re-visit (post-grading) | Return to verify/re-set stakes after site grading | $400–$700 per visit |
 
-> These are suggested ranges for the service as described. Adjust for local market, complexity, and travel costs. The TideMark kit material cost is ~$29 for a 4-pack — the value is in the service, not the plastic.
+> The TideMark stake material cost is under $10 per unit — the value is in the site visit, the elevation survey, and the PE-stamped exhibit. The stakes are the delivery mechanism for the engineering judgment.

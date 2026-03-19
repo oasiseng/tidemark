@@ -2,19 +2,13 @@
 
 ### Open-source formwork elevation reference stake system
 
-TideMark is a 3D-printable field tool that helps contractors set formwork to the correct elevation — without a surveyor on site. It turns a dumb rebar stake into a precision elevation reference with integrated ruler, stringline attachment, and sliding target marker.
+**The thing you're protecting isn't the plastic.** Anyone with calipers and a printer can clone a stake in an afternoon. The IP is the *system* — the PE-stamped elevation exhibit, the field methodology, the service bundle, the brand. None of that lives in an STL file.
+
+---
+
+TideMark is a 3D-printable field tool that helps contractors set formwork to the correct elevation — without a surveyor on site. It's a triangular graduated tower that threads onto a printed ground stake, with an eye bolt for stringline attachment and a sliding lock screw for setting target elevation.
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
-
-## Build What the Site Actually Needs
-
-In construction and engineering, teams often deliver the *medium* instead of the *outcome*.
-
-The medium is familiar: a plan sheet, a note, or an elevation certificate. Those documents matter, but they are not the end goal.
-
-The real goal is simple: the people in the field need to know the exact elevation of grade, formwork, or finished floor so they can build safely, accurately, and confidently — without second-guessing.
-
-TideMark is designed around that reality. It takes the engineer's elevation intent and turns it into a physical, on-site reference that crews can act on immediately. Traditional exhibits and certificates still have their place; TideMark reduces the friction between "information delivered" and "work built correctly."
 
 ## The Problem
 
@@ -26,7 +20,7 @@ Contractors building slabs, accessory structures, and ADUs near flood zones need
 4. Forms get set wrong
 5. Everyone has a bad day
 
-There is no affordable, standardized field tool that reliably bridges the gap between a PE's elevation determination and the contractor's hands in the field.
+There is no affordable, standardized field tool that bridges the gap between a PE's elevation determination and the contractor's formwork.
 
 **TideMark fixes that.**
 
@@ -40,7 +34,7 @@ TideMark is not just a stake — it's a field reference system with three compon
 | **Formwork Elevation Reference Exhibit (FERE)** | PE-stamped elevation determination document | [Service from Oasis Engineering](https://oasisengineering.com) |
 | **Field Methodology Guide** | Step-by-step photo-documented workflow | [`/docs/field-guide.md`](docs/field-guide.md) |
 
-The stake is the field interface. The exhibit provides engineering intent. The methodology connects both so the right elevation gets built, not just documented.
+The stake is the delivery mechanism. The exhibit is the product. The methodology ties them together.
 
 ## How It Works
 
@@ -61,14 +55,14 @@ The stake is the field interface. The exhibit provides engineering intent. The m
 ┌─────────────────────────────────────────────────────┐
 │                   FIELD EXECUTION                    │
 │                                                      │
-│  4. Contractor drives rebar at benchmark location    │
+│  4. Contractor drives ground stake at benchmark      │
 │                                                      │
-│  5. Clips TideMark tower onto rebar                  │
+│  5. Threads TideMark tower onto ground stake         │
 │                                                      │
-│  6. Sets sliding collar to PE-specified offset       │
+│  6. Sets sliding lock screw to PE-specified offset   │
 │     (e.g., "+6 inches above Screw B")               │
 │                                                      │
-│  7. Ties stringline through top V-notch              │
+│  7. Ties stringline through top eye bolt             │
 │                                                      │
 │  8. Sets forms to stringline                         │
 │                                                      │
@@ -86,12 +80,12 @@ tidemark/
 ├── hardware/
 │   ├── stl/                     # Print-ready STL files
 │   │   ├── tidemark-tower-v1.stl
-│   │   ├── tidemark-collar-v1.stl
-│   │   └── tidemark-cap-v1.stl
+│   │   ├── tidemark-lockscrew-v1.stl
+│   │   └── tidemark-groundstake-v1.stl
 │   ├── source/                  # Editable CAD source files
 │   │   ├── tidemark-tower-v1.step
-│   │   ├── tidemark-collar-v1.step
-│   │   └── tidemark-cap-v1.step
+│   │   ├── tidemark-lockscrew-v1.step
+│   │   └── tidemark-groundstake-v1.step
 │   ├── BOM.md                   # Bill of materials
 │   └── PRINT-SETTINGS.md        # Recommended slicer settings
 │
@@ -131,36 +125,38 @@ tidemark/
 
 | Item | Source | Est. Cost |
 |------|--------|-----------|
-| TideMark Tower (3D printed) | Print from `/hardware/stl/` | ~$3 in filament |
-| TideMark Collar (3D printed) | Print from `/hardware/stl/` | ~$0.50 in filament |
-| 3/4" rebar stake, 18" long | Local hardware store | ~$2 |
+| TideMark Tower (3D printed, triangular) | Print from `/hardware/stl/` | ~$3 in filament |
+| TideMark Ground Stake (3D printed) | Print from `/hardware/stl/` | ~$1.50 in filament |
+| TideMark Lock Screw + Nut (3D printed) | Print from `/hardware/stl/` | ~$0.50 in filament |
+| Eye bolt, 1" loop | Hardware store or printed | ~$1 |
 | Hammer | You already have one | — |
 | Sharpie | For labeling | ~$1 |
 
-**Total cost per stake: ~$6.50**
+**Total cost per stake: ~$7.00**
 
 ### Print Settings
 
 See [`hardware/PRINT-SETTINGS.md`](hardware/PRINT-SETTINGS.md) for detailed slicer settings.
 
 **Quick reference:**
-- **Material:** PETG (preferred for UV/impact) or ASA (best durability)
+- **Material:** PETG for tower (UV/impact), PLA for threaded parts (sharper threads)
 - **Layer height:** 0.2mm
 - **Infill:** 50% gyroid
 - **Walls:** 4 perimeters
-- **Orientation:** Tower prints vertically (graduation face up for best surface quality)
-- **Color:** Safety orange or bright yellow recommended for field visibility
-- **Avoid:** PLA (warps in sun, brittle on impact)
+- **Print plates:** 3 separate plates (tower, hardware, ground stake)
+- **Color:** Safety orange or bright yellow for tower, contrasting for lock hardware
+- **Avoid:** PLA for the tower (warps in sun, brittle on impact)
 
 ### Design Specifications
 
-- **Tower body:** ~12" tall, 1.5" × 1.0" rectangular cross-section
-- **Rebar channel:** Sized for 3/4" (#6) rebar with friction fit
-- **Graduations:** Embossed inch marks on front face, 1" major / 1/2" minor ticks
-- **Stringline notch:** V-notch saddle at top, 1/4" wide × 3/8" deep
-- **Collar:** Sliding ring, bright red/contrasting color, friction fit with thumb tab
-- **Label window:** 1.5" × 0.75" recessed flat area for Sharpie notation
-- **Branding:** "TIDEMARK" and "OASISENGINEERING.COM" embossed on rear face
+- **Tower body:** 16" tall, equilateral triangular cross-section, 3" per face
+- **Connection:** Female thread (1" × 2") at tower base, mates to male thread on ground stake
+- **Graduations:** Embossed inch marks on one face, 1" major / 0.25" minor ticks (1/4" resolution)
+- **Stringline attachment:** 1" eye bolt threaded into top of tower
+- **Height lock:** Sliding lock screw through tower wall — threaded bolt + nut clamps position
+- **Label window:** Flat area on one face for Sharpie notation
+- **Branding:** "TIDEMARK" and "OASISENGINEERING.COM" embossed on one face
+- **Ground stake:** 8" driven section + 2" handle/grip + 1" male thread (11" total)
 
 ## The Exhibit (FERE)
 
@@ -201,7 +197,7 @@ Oasis Engineering provides Formwork Elevation Reference Exhibits as a standalone
 **What's included:**
 - Site visit or remote assessment (GIS/photo-based)
 - PE-stamped Formwork Elevation Reference Exhibit
-- TideMark stake kit (4 stakes + 4 collars)
+- TideMark stake kit (4 stakes + lock hardware)
 - Field methodology guide
 
 📞 **813-694-8989**

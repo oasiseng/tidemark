@@ -4,56 +4,69 @@
 
 | # | Item | Specification | Source | Est. Cost |
 |---|------|--------------|--------|-----------|
-| 1 | TideMark Tower | 3D printed, PETG/ASA, ~45g | Print from `/hardware/stl/tidemark-tower-v1.stl` | $2.50 |
-| 2 | TideMark Collar | 3D printed, contrasting color, ~8g | Print from `/hardware/stl/tidemark-collar-v1.stl` | $0.50 |
-| 3 | TideMark Cap | 3D printed, optional top cap, ~3g | Print from `/hardware/stl/tidemark-cap-v1.stl` | $0.25 |
-| 4 | Rebar stake | 3/4" (#6) rebar, 18" long, one end pointed | Local steel supplier or hardware store | $2.00 |
+| 1 | TideMark Tower | 3D printed, PETG, triangular 3"×3"×3" × 16" tall, ~65g | Print from `/hardware/stl/tidemark-tower-v1.stl` | $3.00 |
+| 2 | TideMark Ground Stake | 3D printed, PLA/PETG, 8" spike + 2" handle + 1" male thread, ~30g | Print from `/hardware/stl/tidemark-groundstake-v1.stl` | $1.50 |
+| 3 | Lock Screw + Nut | 3D printed, PLA, threaded bolt + nut for sliding height lock | Print from `/hardware/stl/tidemark-lockscrew-v1.stl` | $0.50 |
+| 4 | Eye Bolt | 1" loop, threaded into top of tower for stringline | Hardware store or 3D printed | $1.00 |
 | 5 | Label (optional) | Printed adhesive label from `/branding/label-template.svg` | Inkjet on weatherproof label stock | $0.25 |
 
-**Total per stake: ~$5.50**
+**Total per stake: ~$6.25**
 
 ## TideMark Contractor Kit (4-Pack)
 
 | # | Item | Qty | Est. Cost |
 |---|------|-----|-----------|
-| 1 | TideMark Tower | 4 | $10.00 |
-| 2 | TideMark Collar | 4 | $2.00 |
-| 3 | TideMark Cap | 4 | $1.00 |
-| 4 | Rebar stake 3/4" × 18" | 4 | $8.00 |
+| 1 | TideMark Tower | 4 | $12.00 |
+| 2 | TideMark Ground Stake | 4 | $6.00 |
+| 3 | Lock Screw + Nut sets | 4 | $2.00 |
+| 4 | Eye Bolts (1" loop) | 4 | $4.00 |
 | 5 | Adhesive labels | 4 | $1.00 |
 | 6 | Instruction card (laminated) | 1 | $2.00 |
 | 7 | Canvas zip pouch (branded, optional) | 1 | $5.00 |
 
-**Total per kit: ~$29.00**
+**Total per kit: ~$32.00**
 
-## Where to Source Rebar
+## Print Plate Breakdown
 
-- **Home Depot / Lowes:** 3/4" × 2' rebar, cut to 18" — most accessible
-- **Local steel yard:** Buy 20' sticks, cut to length — cheapest at volume
-- **Concrete supply house:** Often sells pre-cut stakes with pointed ends
+The TideMark system is designed to print on **2–3 build plates:**
 
-> **Tip:** If your steel supplier can point one end, that saves significant field time. Otherwise, an angle grinder with a flap disc puts a quick taper on rebar in about 30 seconds.
+| Plate | Parts | Material | Notes |
+|-------|-------|----------|-------|
+| **Plate 1** | Triangular tower with graduations | PETG (orange/yellow) | Longest print — tower prints vertically |
+| **Plate 2** | Lock screws, lock nuts, eye bolt (if printed) | PLA | PLA prints sharper threads than PETG |
+| **Plate 3** | Ground stake | PETG or PLA | Stake prints horizontally |
 
-## Alternative Stake Materials
+## Thread Specifications
 
-The TideMark tower is designed for 3/4" rebar, but these alternatives also work:
+| Connection | Type | Pitch | Notes |
+|-----------|------|-------|-------|
+| Tower base ↔ Ground stake | Female (tower) / Male (stake) | 3–4mm coarse pitch | Coarse pitch for FDM printability — fine threads strip |
+| Lock screw ↔ Tower wall | Through-bolt + nut | 3mm pitch | Bolt passes through hole in tower wall, nut on inside |
+| Eye bolt ↔ Tower top | Threaded insert or printed thread | Per eye bolt spec | If using hardware store eye bolt, print matching receiver hole |
 
-| Material | Pros | Cons |
-|----------|------|------|
-| 3/4" rebar (default) | Cheap, strong, available everywhere | Heavy, rusts |
-| 3/4" fiberglass rod | Lightweight, no rust, non-conductive | More expensive, harder to source |
-| 3/4" aluminum rod | Lightweight, no rust | Bends easier, more expensive |
-| 3/4" galvanized pipe | Rust resistant | Heavier, overkill |
+## Ground Stake Dimensions
 
-Rebar is the recommended default. It's on every job site already.
+| Segment | Length | Purpose |
+|---------|--------|---------|
+| Driven section (pointed) | 8" | Penetrates ground |
+| Handle/grip section | 2" | Stays above grade, allows hand-tightening or wrench grip |
+| Male thread | 1" | Threads into tower base |
+| **Total** | **11"** | |
 
-## Filament Estimates (Per Tower)
+> **Driving the stake:** Use a hammer or small sledge on the handle section. The pointed tip self-starts in most residential soils. For hard or rocky ground, pre-drill a pilot hole with a rebar spike or use a rubber mallet to avoid cracking the printed handle.
 
-| Material | Weight | Cost/kg | Cost/Tower |
-|----------|--------|---------|------------|
-| PETG (recommended) | ~45g | $20/kg | $0.90 |
-| ASA (best durability) | ~45g | $28/kg | $1.26 |
-| PLA (prototyping only) | ~45g | $18/kg | $0.81 |
-| Nylon (PA6, premium) | ~45g | $40/kg | $1.80 |
+## Filament Estimates (Per Complete Stake Assembly)
 
-> **Do not use PLA for field stakes.** PLA deforms at ~60°C (140°F), which is easily reached inside a vehicle or on a sun-exposed job site in Florida/Texas. PETG is the minimum for field use.
+| Part | Material | Weight | Cost/kg | Cost |
+|------|----------|--------|---------|------|
+| Tower (PETG) | PETG | ~65g | $20/kg | $1.30 |
+| Ground stake (PETG) | PETG | ~30g | $20/kg | $0.60 |
+| Lock hardware (PLA) | PLA | ~10g | $18/kg | $0.18 |
+| Eye bolt (if printed, PLA) | PLA | ~5g | $18/kg | $0.09 |
+| **Total filament** | | **~110g** | | **~$2.17** |
+
+> Hardware store eye bolts are recommended over printed ones for durability under stringline tension. Budget ~$1 per bolt.
+
+## Material Notes
+
+> **Do not use PLA for the tower or ground stake.** PLA deforms at ~60°C (140°F), which is easily reached inside a vehicle or on a sun-exposed job site in Florida/Texas. PETG is the minimum for field use. PLA is acceptable for the lock screw and nut since they don't bear structural loads or sit in direct sun for extended periods.
