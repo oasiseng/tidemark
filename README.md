@@ -2,19 +2,13 @@
 
 ### Open-source formwork elevation reference stake system
 
+**The thing you're protecting isn't the plastic.** Anyone with calipers and a printer can clone a stake in an afternoon. The IP is the *system* — the PE-stamped elevation exhibit, the field methodology, the service bundle, the brand. None of that lives in an STL file.
+
+---
+
 TideMark is a 3D-printable field tool that helps contractors set formwork to the correct elevation — without a surveyor on site. It's a triangular graduated tower that threads onto a printed ground stake, with an eye bolt for stringline attachment and a sliding lock screw for setting target elevation.
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
-
-## Build What the Site Actually Needs
-
-In construction and engineering, teams often deliver the medium instead of the outcome.
-
-The medium is familiar: a plan sheet, a note, or an elevation certificate. Those documents matter, but they are not the end goal.
-
-The real goal is simple: the people in the field need to know the exact elevation of grade, formwork, or finished floor so they can build safely, accurately, and confidently — without second-guessing.
-
-TideMark is designed around that reality. It takes the engineer's elevation intent and turns it into a physical, on-site reference that crews can act on immediately. Traditional exhibits and certificates still have their place; TideMark reduces the friction between "information delivered" and "work built correctly."
 
 ## The Problem
 
@@ -46,33 +40,43 @@ The stake is the delivery mechanism. The exhibit is the product. The methodology
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   PRE-CONSTRUCTION                   │
+│               ENGINEER SITE VISIT                    │
 │                                                      │
-│  1. PE establishes reference elevations (field obs   │
-│     + GIS contours + FEMA FIRM data)                 │
+│  1. PE performs differential elevation survey at      │
+│     project site, establishes reference elevations   │
 │                                                      │
-│  2. PE produces Formwork Elevation Reference Exhibit  │
-│     with benchmark locations, FFE, and offset dims   │
+│  2. PE drives TideMark ground stakes at strategic    │
+│     benchmark locations around proposed structure    │
 │                                                      │
-│  3. PE ships exhibit + TideMark stake kit to site    │
+│  3. PE threads tower onto each stake, sets lock      │
+│     screw to required FFE offset, labels elevation   │
+│                                                      │
+│  4. PE photographs each installed TideMark stake     │
+│     and surrounding site conditions                  │
+│                                                      │
+│  5. PE produces Formwork Elevation Reference Exhibit  │
+│     with benchmark data, photos, and offset dims     │
+│                                                      │
+│  6. PE delivers exhibit to client — TideMark stakes  │
+│     remain installed on site, ready for use          │
 └──────────────────────┬──────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────┐
-│                   FIELD EXECUTION                    │
+│               CONTRACTOR EXECUTION                   │
 │                                                      │
-│  4. Contractor drives ground stake at benchmark      │
+│  7. Contractor locates installed TideMark stakes     │
+│     using exhibit site plan and photo references     │
 │                                                      │
-│  5. Threads TideMark tower onto ground stake         │
+│  8. Contractor confirms stakes are undisturbed       │
 │                                                      │
-│  6. Sets sliding lock screw to PE-specified offset   │
-│     (e.g., "+6 inches above Screw B")               │
+│  9. Contractor ties stringline to eye bolts —        │
+│     the stakes are already set to FFE               │
 │                                                      │
-│  7. Ties stringline through top eye bolt             │
+│  10. Contractor sets forms to stringline             │
 │                                                      │
-│  8. Sets forms to stringline                         │
-│                                                      │
-│  9. Photos TideMark stake for documentation          │
+│  11. Contractor photographs stakes + forms and       │
+│      sends to PE for pre-pour verification           │
 └─────────────────────────────────────────────────────┘
 ```
 
