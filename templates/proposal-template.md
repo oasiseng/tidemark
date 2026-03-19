@@ -121,10 +121,4 @@ Print Name: _________________________
 
 Sincerely,
 
-**Engineer**
-
-Oasis Engineering, LLC
-3702 W Spruce St, #1033
-Tampa, FL 33607
-P: 813-694-8989
-oasisengineering.com | 
+[COMPANY NAME]
