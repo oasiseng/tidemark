@@ -77,4 +77,4 @@ Contact Enrique Lairet, PE at 813-694-8989 or [EMAIL].
 
 ---
 
-*Oasis Engineering, LLC | oasisengineering.com | windcalculations.com*
+*Oasis Engineering, LLC | oasisengineering.com |*
