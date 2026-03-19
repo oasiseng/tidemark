@@ -121,12 +121,10 @@ Print Name: _________________________
 
 Sincerely,
 
-**Enrique Lairet, PE**
-FL License No. 86574
+**Engineer**
 
 Oasis Engineering, LLC
-FL COA No. 35420
 3702 W Spruce St, #1033
 Tampa, FL 33607
 P: 813-694-8989
-oasisengineering.com | windcalculations.com
+oasisengineering.com | 
