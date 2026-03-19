@@ -2,7 +2,7 @@
 
 ## Usage
 
-Copy and customize for each client proposal. Replace all [BRACKETED] items.
+Copy and customize for each client proposal. Replace all [BRACKETED] items. Remove sections in [SQUARE BRACKETS] if not applicable to the project scope.
 
 ---
 
@@ -23,51 +23,91 @@ We understand that you need to establish the correct Finished Floor Elevation (F
 
 ### Proposed Scope
 
-**Formwork Elevation Reference Exhibit (FERE)**
+**1. Site Visit and Differential Elevation Survey**
 
-We will prepare a PE-stamped Formwork Elevation Reference Exhibit that provides your contractor with the elevation information needed to set formwork correctly. The exhibit includes:
+We will conduct a site visit to perform a differential elevation survey at the project site. During this visit, we will:
 
-- Site plan showing proposed building location and benchmark positions
-- Elevation control notes with specified FFE and benchmark data
-- FEMA flood map exhibit with flood zone designation
-- Annotated photo documentation of benchmark locations
+- Observe and document reference elevations at [NUMBER] locations using [RTK GPS / differential leveling / total station], referenced to NAVD88 datum
+- Evaluate existing site conditions and confirm proposed building location
+- Install [NUMBER] TideMark elevation reference stakes at strategic benchmark locations around the proposed structure
+- Set each TideMark stake to the required offset height, with the lock screw positioned at the target FFE relative to the observed benchmark elevation
+- Photograph all installed TideMark stake locations and surrounding site conditions for documentation
+
+Upon completion of the site visit, the TideMark stakes will remain installed on site as permanent field references for the contractor's use during formwork placement.
+
+**2. Formwork Elevation Reference Exhibit (FERE)**
+
+Following the site visit, we will prepare a PE-stamped Formwork Elevation Reference Exhibit that provides your contractor with the elevation information needed to verify and execute formwork placement. The exhibit includes:
+
+- Site plan showing proposed building location and TideMark benchmark positions
+- Elevation control notes with specified FFE, benchmark elevations, and offset dimensions
+- FEMA flood map exhibit with flood zone designation [and Base Flood Elevation]
+- Annotated photo documentation of each installed TideMark stake location
 - Foundation detail showing FFE relationship to existing grade
 - General notes, disclaimers, and contractor responsibilities
+- TideMark field usage guide for contractor reference
 
-[**Site Visit**
-We will conduct a site visit to establish [NUMBER] benchmark reference points using [RTK GPS / relative measurement]. Benchmarks will be documented with photographs and referenced to NAVD88 datum.]
+**3. Pre-Pour Verification (Remote)**
 
-[**TideMark Field Reference Kit**
-We will provide a TideMark elevation reference stake kit ([NUMBER] stakes with sliding target collars) configured for use with the benchmarks identified in the exhibit. The kit includes a field usage guide for your contractor.]
+Prior to concrete placement, the contractor will submit photo documentation of formwork elevations per the exhibit's general notes. We will review the submitted photos and provide written verification [or correction] before the contractor proceeds with the pour.
 
 ### Deliverables
 
 - Formwork Elevation Reference Exhibit (PDF, PE-stamped and signed)
-[- TideMark stake kit ([NUMBER]-pack) with instruction card]
-[- Field methodology guide]
+- [NUMBER] TideMark elevation reference stakes installed on site, set to target FFE offset
+- TideMark field guide (printed instruction card left on site with stakes)
+- Pre-pour photo verification review (one round included)
+
+### What the Contractor Receives on Site
+
+When the contractor arrives, they will find:
+
+- [NUMBER] TideMark stakes already driven and set at benchmark locations identified on the exhibit
+- Each stake's lock screw pre-set to the correct FFE offset — the contractor ties stringline to the eye bolt and sets forms to that line
+- A laminated instruction card zip-tied to one of the stakes explaining the system and verification photo requirements
+
+The contractor does not need to perform any elevation measurement. The stakes are ready to use as delivered.
 
 ### Exclusions
 
-This proposal does not include boundary survey, topographic survey, construction staking, geotechnical investigation, structural design, floodplain development permit application, Elevation Certificate, or construction observation services. These can be quoted separately if needed.
+This proposal does not include boundary survey, topographic survey, construction staking, geotechnical investigation, structural design, floodplain development permit application, Elevation Certificate (FEMA Form 086-0-33), or construction observation/inspection services. These can be quoted separately if needed.
+
+This exhibit is a reference tool and does not constitute a construction survey. The contractor remains solely responsible for verifying field conditions and formwork elevations prior to concrete placement.
 
 ### Fee
 
 | Item | Fee |
 |------|-----|
-| Formwork Elevation Reference Exhibit | $[AMOUNT] |
-[| TideMark Stake Kit | Included |]
-[| Site Visit | Included |]
+| Site visit, differential elevation survey, and TideMark stake installation | $[AMOUNT] |
+| Formwork Elevation Reference Exhibit (PE-stamped) | Included |
+| Pre-pour photo verification review (1 round) | Included |
 | **Total** | **$[AMOUNT]** |
 
-Payment terms: [50% upon authorization, balance upon delivery / Net 30 / as agreed].
+[**Additional services (if needed):**]
+
+| Item | Fee |
+|------|-----|
+| [Additional site visit (re-set stakes after grading)] | [$AMOUNT per visit] |
+| [Additional TideMark stakes beyond [NUMBER]] | [$AMOUNT per stake] |
+| [Additional pre-pour verification reviews] | [$AMOUNT per review] |
+
+Payment terms: [50% upon authorization, balance upon delivery of exhibit / Net 30 / as agreed].
 
 ### Timeline
 
-We anticipate delivery within [X] business days of [authorization / site visit completion].
+- Site visit: Scheduled within [X] business days of authorization
+- Exhibit delivery: Within [X] business days of site visit
+- Pre-pour verification: Within [24 hours / 1 business day] of receiving contractor photos
+
+### Assumptions
+
+- Client will provide site access on a mutually agreed date.
+- The site will not be graded or significantly disturbed between the site visit and formwork placement. If grading occurs after stake installation, the TideMark stakes may need to be re-evaluated and an additional site visit may be required at additional cost.
+- The contractor is responsible for protecting installed TideMark stakes from disturbance by equipment or site activity.
 
 ### Authorization
 
-To proceed, please sign below and return this proposal with the initial payment of $[AMOUNT]. Work will begin upon receipt.
+To proceed, please sign below and return this proposal with the initial payment of $[AMOUNT]. We will contact you to schedule the site visit upon receipt.
 
 ---
 

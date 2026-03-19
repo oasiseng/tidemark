@@ -11,9 +11,10 @@ This guide explains how to use the TideMark elevation reference stake to set for
 ## What You Have
 
 Your TideMark kit includes:
-- TideMark measuring towers (orange/yellow)
-- Sliding target collars (red/white)
-- Rebar stakes (3/4", 18" long)
+- TideMark triangular measuring towers (orange/yellow)
+- Ground stakes with threaded tops
+- Lock screws and nuts
+- Eye bolts for stringline
 - This instruction card
 - Your PE-stamped Formwork Elevation Reference Exhibit
 
@@ -40,17 +41,19 @@ Common benchmarks:
 
 **If you can't find a benchmark, STOP and call the engineer.** Don't guess.
 
-### Step 2: Drive the Rebar
+### Step 2: Drive the Ground Stake
 
-Drive a rebar stake into the ground at or immediately adjacent to the benchmark location. Drive it until the top of the rebar is approximately level with existing grade at the benchmark.
+Position the TideMark ground stake at or immediately adjacent to the benchmark location. The pointed end goes into the ground. Drive it with a hammer on the handle section until the handle sits at or just above existing grade. The threaded top should be sticking up above the ground.
 
-> **Important:** The rebar goes NEXT TO the benchmark, not through it. Don't damage the benchmark reference point.
+> **Important:** The ground stake goes NEXT TO the benchmark, not through it. Don't damage the benchmark reference point.
 
-### Step 3: Attach the TideMark Tower
+> **Hard soil?** Pre-punch a pilot hole with a rebar spike or use a rubber mallet to avoid cracking the printed handle. Don't hit the threaded top — hammer only on the handle section below the threads.
 
-Slide the TideMark tower onto the rebar stake. The channel on the back fits over 3/4" rebar. Push it down until the bottom of the tower rests on the ground or on the rebar.
+### Step 3: Thread on the Tower
 
-The "0" mark on the tower should be at the benchmark elevation. If the benchmark is a screw head at ground level and your rebar is driven to grade, the tower's zero is at ground level — which is your benchmark elevation.
+Thread the TideMark tower onto the ground stake. The female thread at the base of the tower screws onto the male thread on top of the ground stake. Hand-tighten until snug.
+
+The "0" mark on the tower should be at the benchmark elevation. If the benchmark is a screw head at ground level and your stake handle is at grade, the tower's zero is at ground level — which is your benchmark elevation.
 
 ### Step 4: Read the Offset from Your Exhibit
 
@@ -63,15 +66,17 @@ Your FERE includes an **Elevation Offset Table** that looks like this:
 
 Find the benchmark you're using. Read the "TideMark Setting" column. That's the number you set on the stake.
 
-### Step 5: Set the Collar
+### Step 5: Set and Lock the Height
 
-Slide the red/white collar up the tower to the inch mark specified in your exhibit. The collar should be clearly visible from a distance.
+Slide the lock screw to the inch mark specified in your exhibit. Tighten the knurled lock screw by hand until it's firm — this clamps the tower at the correct height relative to the stake.
 
-Example: If the exhibit says "+21 inches" for Screw A, slide the collar to the 21" mark.
+Example: If the exhibit says "+21 inches" for Screw A, position the lock indicator at the 21" mark and tighten.
 
-### Step 6: Tie Your Stringline
+> **The lock screw should be hand-tight, not wrench-tight.** Over-tightening can crack the printed thread. Snug is enough.
 
-Thread your stringline through the V-notch at the top of the tower, OR through the collar if the collar is your target elevation.
+### Step 6: Attach the Eye Bolt and Tie Stringline
+
+Thread the eye bolt into the top of the tower if not already installed. Pass your stringline through the eye bolt loop and tie off.
 
 If using multiple TideMark stakes at different benchmarks, the stringline between them should be level (or follow the specified grade) at the required FFE.
 
@@ -82,7 +87,7 @@ Set your formwork to the stringline elevation. The top of your forms should matc
 ### Step 8: Document It
 
 **Before you pour, take photos showing:**
-- Each TideMark stake with the collar position readable
+- Each TideMark stake with the lock screw position readable
 - The stringline in relation to the top of forms
 - A tape measure showing the measurement from benchmark to top of form
 
@@ -97,7 +102,9 @@ Send these photos to the engineer for verification before placing concrete. This
 | Wrong benchmark | Elevation is off by whatever the difference between benchmarks is | Match the photo exhibit to the physical benchmark — don't assume |
 | Reading the wrong column | You set feet instead of inches, or vice versa | Use the "TideMark Setting" column — it's always in inches |
 | Benchmark disturbed by grading | Reference elevation is no longer valid | Check benchmarks BEFORE any site grading |
-| Rebar not at grade | Zero reference is shifted | Drive rebar so the top is at existing ground level at the benchmark |
+| Ground stake not at grade | Zero reference is shifted | Drive stake so the handle section sits at existing ground level |
+| Lock screw not tightened | Tower shifts, elevation drifts | Hand-tighten lock screw until snug — check it before tying string |
+| Hammering the threaded top | Damaged threads, tower won't attach | Always hammer on the handle section below the threads |
 | Guessing instead of calling | Everything | If in doubt, call the engineer: it's cheaper than tearing out concrete |
 
 ---
@@ -108,7 +115,8 @@ Call **before** proceeding if:
 - You can't find a benchmark shown on the exhibit
 - The ground conditions look different from the exhibit photos
 - The site has been graded since the exhibit was prepared
-- The offset seems unreasonably large (>24 inches) or small
+- The offset seems unreasonably large (>16 inches) or small
+- The ground stake won't hold — keeps pulling out or spinning
 - Any measurement doesn't feel right
 
 **Phone: [ENGINEER PHONE NUMBER]**
@@ -121,8 +129,10 @@ It takes 5 minutes to make a phone call. It takes 5 days to tear out and re-pour
 
 - Store TideMark towers out of direct sunlight when not in use (extends life)
 - Rinse mud off after use — dried mud obscures graduations
+- Clean threads with a brush or compressed air — grit in threads causes binding
 - Replace if cracked, warped, or if graduation marks are no longer legible
-- The collar should slide with firm friction — if it slides freely, replace it
+- Check that the lock screw still clamps firmly — replace if threads are stripped
+- The eye bolt loop should be intact with no cracks — replace if bent open or cracked
 - Do not use as a pry bar, hammer, or anything other than an elevation reference
 
 ---
@@ -130,13 +140,16 @@ It takes 5 minutes to make a phone call. It takes 5 days to tear out and re-pour
 ## Frequently Asked Questions
 
 **Q: Is TideMark a surveying instrument?**
-A: No. TideMark is a field reference tool. It helps you execute an elevation determination that was made by a licensed Professional Engineer. It does not replace a survey.
+A: No. TideMark is a field reference tool. It helps you execute an elevation that a PE has already determined. It does not measure or establish elevations on its own.
 
 **Q: Can I use TideMark without a FERE exhibit?**
 A: You can use it as a general-purpose measuring stake, but you won't know what elevation to set unless a PE has given you that information.
 
-**Q: What if I need to set forms higher than 24 inches above a benchmark?**
-A: Contact the engineer. You may need an intermediate reference point established, or a different benchmark may provide a smaller offset.
+**Q: What if I need to set forms higher than 16 inches above a benchmark?**
+A: Contact the engineer. You may need an intermediate reference point established, or a different benchmark may provide a smaller offset. A taller tower variant (v1.1) is planned.
+
+**Q: Why is the tower triangular?**
+A: Three reasons: it's more rigid than square or round for the same weight, it self-locates on uneven ground (three points of contact don't wobble), and the flat faces give you a clean surface for graduation marks and branding.
 
 **Q: Can I reuse TideMark stakes on different jobs?**
-A: Yes. Clean them, check that the graduations are legible and the collar fits snugly, and they're good to go.
+A: Yes. Clean them, check that the threads engage smoothly, the lock screw clamps, and the graduations are legible. They're good to go.

@@ -1,20 +1,29 @@
 # Source CAD Files
 
-Editable CAD source files for the TideMark stake system.
+## Status: Awaiting Initial Design
 
-## Files (To Be Added)
+This directory will contain editable CAD source files (STEP format) for all TideMark components.
 
-- `tidemark-tower-v1.step` — Main tower body
-- `tidemark-collar-v1.step` — Sliding target collar
-- `tidemark-cap-v1.step` — Optional top cap
+## Planned Files
 
-## Status
+| File | Description |
+|------|-------------|
+| `tidemark-tower-v1.step` | Triangular graduated tower — editable source |
+| `tidemark-groundstake-v1.step` | Threaded ground stake — editable source |
+| `tidemark-lockscrew-v1.step` | Lock screw + nut — editable source |
+| `tidemark-assembly-v1.step` | Full assembly for visualization |
 
-🔧 **In development** — First STEP release targeted for v0.1.
+## Why STEP Format
 
-## CAD Notes
+STEP (Standard for the Exchange of Product Data) is a vendor-neutral CAD format that can be opened in virtually any CAD program: FreeCAD, Fusion 360, SolidWorks, OnShape, CATIA, Inventor, etc.
 
-- All dimensions in millimeters
-- Rebar channel sized for 3/4" (#6) rebar (19.05mm nominal OD) with 0.5mm clearance per side
-- Graduation marks are recessed features (0.6mm deep) for paint fill
-- Collar inner profile matches tower outer profile with 0.3mm clearance for sliding fit
+This ensures the design remains accessible regardless of what software contributors use.
+
+## Modifying the Design
+
+1. Open the STEP file in your preferred CAD tool
+2. Make modifications
+3. Export updated STEP file
+4. Export STL at 0.1mm tolerance for printing
+5. Test print and verify: thread engagement between tower and stake, lock screw clamping, eye bolt fit
+6. Submit PR with both files + photos of test print

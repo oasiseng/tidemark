@@ -3,16 +3,19 @@
 ## About TideMark
 
 **Q: What is TideMark?**
-A: TideMark is an open-source 3D-printable elevation reference stake that helps contractors set formwork to the correct Finished Floor Elevation (FFE). It's designed to be used with a Formwork Elevation Reference Exhibit (FERE) prepared by a licensed Professional Engineer.
+A: TideMark is an open-source 3D-printable elevation reference stake that helps contractors set formwork to the correct Finished Floor Elevation (FFE). It consists of a triangular graduated tower, a threaded ground stake, a lock screw, and an eye bolt for stringline. It's designed to be used with a Formwork Elevation Reference Exhibit (FERE) prepared by a licensed Professional Engineer.
 
 **Q: Is TideMark a surveying tool?**
-A: No. TideMark is a field reference tool — a ruler with a stringline attachment that clips onto rebar. It helps you execute an elevation that a PE has already determined. It does not measure or establish elevations on its own.
+A: No. TideMark is a field reference tool — a graduated stake with a stringline attachment. It helps you execute an elevation that a PE has already determined. It does not measure or establish elevations on its own.
 
 **Q: Can I sell TideMark stakes?**
 A: The hardware designs are MIT-licensed — you can print and sell the physical stakes. However, the "TideMark" name and associated branding are trademarks of Oasis Engineering, LLC and cannot be used without permission. If you want to sell them under your own brand, that's fine.
 
 **Q: What printer do I need?**
-A: Any FDM printer with at least a 200mm × 200mm × 300mm build volume. The tower is about 12 inches tall — that's the critical dimension. Prusa, Bambu Lab, Creality Ender 3, etc. all work.
+A: Any FDM printer with sufficient Z-height. The tower is 16" (406mm) tall — most standard printers (Ender 3, Prusa MK3/MK4, Bambu P1/X1) top out around 250mm Z, which is too short. You'll need a tall-format printer (CR-10, Ender 5 Plus, Voron 350, or similar) OR print the tower in two 8" halves that thread together (planned v1.1 feature). The ground stake and lock hardware fit on any printer.
+
+**Q: Why is it triangular?**
+A: Three reasons. First, a triangular cross-section is inherently more rigid than rectangular for the same wall thickness — it resists bending and twisting better. Second, three points of contact mean the tower won't wobble on uneven ground. Third, the flat faces provide clean surfaces for graduation marks, branding, and label windows — one function per face.
 
 **Q: Why not injection mold these?**
 A: At the volumes we're talking about (tens to hundreds per year, not thousands), 3D printing is more economical and allows rapid design iteration. If demand grows to thousands of units, injection molding becomes viable — the design is intentionally simple enough to mold.
@@ -40,8 +43,8 @@ A: Yes. The FERE methodology documented in this repository can be used by any li
 
 ## Field Use
 
-**Q: What if my offset is more than 24 inches?**
-A: The standard TideMark tower measures up to 24 inches. If your offset exceeds this, contact the engineer — you may need an intermediate reference point, a different benchmark, or a taller tower variant.
+**Q: What if my offset is more than 16 inches?**
+A: The standard TideMark tower measures up to 16 inches. If your offset exceeds this, contact the engineer — you may need an intermediate reference point, a different benchmark, or a taller tower variant.
 
 **Q: Can I use TideMark without a FERE?**
 A: You can use it as a general-purpose measuring stake with stringline attachment, but without a PE's elevation determination, you won't know what elevation to set.
@@ -50,20 +53,23 @@ A: You can use it as a general-purpose measuring stake with stringline attachmen
 A: Stop and call the engineer. Do not estimate or guess. The benchmark may have been disturbed by site activity — the engineer needs to know.
 
 **Q: Does TideMark work on slopes?**
-A: Yes, but on steep slopes the rebar must be driven plumb (vertical), not perpendicular to the slope surface. The graduations assume a vertical orientation.
+A: Yes, but the ground stake must be driven plumb (vertical), not perpendicular to the slope surface. The graduations assume a vertical orientation.
 
 **Q: Can I leave TideMark stakes in the ground permanently?**
-A: The rebar will stay, but the printed tower should be removed after formwork is set. UV exposure will degrade the plastic over weeks/months, and it serves no purpose after the pour.
+A: The ground stake can stay, but the printed tower should be removed after formwork is set. UV exposure will degrade PETG over weeks/months. Unthread the tower, clean it, and store it for the next job.
+
+**Q: The threads are stiff / won't engage. What do I do?**
+A: Clean both threads with a brush — dirt and grit cause binding. If still stiff, thread them together and apart a few times to wear in. If the male thread is slightly oversized (common with FDM), lightly sand the outer diameter with 220-grit. A wrap of Teflon tape can also smooth engagement.
 
 ---
 
 ## Technical
 
-**Q: Why 3/4" rebar?**
-A: It's the most commonly available size on residential job sites, strong enough to drive without bending, and provides a stable base for the tower. The design can be adapted for other sizes by modifying the channel dimension in the CAD source files.
+**Q: Why printed threads instead of metal hardware?**
+A: Printed threads keep the entire system self-contained and 3D printable — no hardware store run required (except the optional eye bolt). Coarse-pitch printed threads (3–4mm pitch) are surprisingly strong and hold up well for this application. The lock screw sees minimal load, and the tower-to-stake connection is hand-tight only.
 
-**Q: Why not use a metal stake for everything?**
-A: A metal stake doesn't have graduated markings, a stringline notch, a label area, or a sliding target collar. The 3D-printed tower is the "smart" part that turns a dumb stake into a reference tool. Printing it is cheap, fast, and customizable.
+**Q: What thread pitch should I use?**
+A: 3–4mm coarse pitch for all connections. Fine threads (≤2mm) strip easily on FDM prints. The exact pitch isn't critical as long as the tower and stake match — they're always used as a set.
 
 **Q: Can I modify the design?**
 A: Yes — that's why it's open source. STEP files are provided for editing in any CAD program. See CONTRIBUTING.md for guidelines on submitting improvements back to the project.

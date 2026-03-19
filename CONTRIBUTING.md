@@ -11,8 +11,9 @@ The most valuable contributions are real-world field testing reports. If you've 
 Open an issue with:
 - What you printed (material, settings, printer)
 - Soil conditions (soft fill, compacted, rocky, etc.)
-- How the rebar fit worked
-- Whether the collar held position
+- How the threaded connection held up (tower-to-stake engagement)
+- Whether the lock screw held position
+- Whether the ground stake survived driving
 - Photos of the stake in use (huge bonus)
 - What broke or didn't work
 
@@ -23,7 +24,7 @@ If you've modified the design and it works better, submit a PR with:
 - A brief description of what changed and why
 - Photos or test results if possible
 
-Please maintain backward compatibility with 3/4" rebar unless proposing a new size variant.
+Please maintain backward compatibility with the thread spec (3–4mm coarse pitch, 1" diameter tower-to-stake connection) unless proposing a new variant.
 
 ### Documentation
 
@@ -38,8 +39,8 @@ The field guide in particular would benefit from Spanish translation for crews i
 When proposing changes, keep these in mind:
 
 1. **Field-first.** If it doesn't survive a muddy job site and a contractor who doesn't read instructions, it's not ready.
-2. **Printable on consumer FDM.** No SLA, no multi-material, no supports-required geometries if avoidable.
-3. **Readable from 10 feet.** Numbers, marks, and the collar position should be visible in a job site photo taken from a reasonable distance.
+2. **Printable on consumer FDM.** No SLA, no multi-material, no supports-required geometries if avoidable. Be mindful of the 16" Z-height requirement — the two-half tower variant (v1.1) exists for printers with limited Z.
+3. **Readable from 10 feet.** Numbers, marks, and the lock screw position should be visible in a job site photo taken from a reasonable distance.
 4. **Cheap per unit.** The goal is under $10 total cost per stake including hardware. Don't optimize for elegance at the expense of accessibility.
 5. **Compatible with the FERE workflow.** The stake exists to execute the information on a Formwork Elevation Reference Exhibit. Design decisions should support that workflow.
 
@@ -49,6 +50,7 @@ When proposing changes, keep these in mind:
 - Features that make the stake harder to use, not easier
 - Branding modifications (the TideMark name and Oasis Engineering branding are trademarks)
 - Changes that compromise structural integrity for aesthetics
+- Thread spec changes without a compelling mechanical reason
 
 ## Code of Conduct
 
