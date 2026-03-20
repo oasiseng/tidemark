@@ -6,6 +6,8 @@ TideMark is a 3D-printable field tool that helps contractors set formwork to the
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
 
+[Tidemark](hardware/renders/Tidemark_V1.png)
+
 ## Build What the Site Actually Needs
 In construction and engineering, teams often deliver the medium instead of the outcome.
 
