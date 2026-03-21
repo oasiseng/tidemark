@@ -21,11 +21,9 @@ Send with the completed exhibit after site visit and stake installation. Replace
 [CLIENT PHONE]
 
 **From:**
-Enrique Lairet, PE (FL License No. 86574)
-Oasis Engineering, LLC (FL COA No. 35420)
-3702 W Spruce St, #1033
-Tampa, FL 33607
-P: 813-694-8989
+Engineer
+Oasis Engineering, 
+Address
 
 ---
 
