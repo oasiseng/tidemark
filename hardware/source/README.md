@@ -1,29 +1,21 @@
 # Source CAD Files
 
-## Status: Awaiting Initial Design
+## TideMark.STEP
 
-This directory will contain editable CAD source files (STEP format) for all TideMark components.
+Full assembly of all TideMark components in a single STEP file. Contains:
 
-## Planned Files
+- Triangular graduated tower (16" tall, 3" faces)
+- Auger-style ground stake with threaded connection
+- Eye bolt (hook bolt) for stringline
+- Lock nut for height clamping
+- Triangular top cap
 
-| File | Description |
-|------|-------------|
-| `tidemark-tower-v1.step` | Triangular graduated tower — editable source |
-| `tidemark-groundstake-v1.step` | Threaded ground stake — editable source |
-| `tidemark-lockscrew-v1.step` | Lock screw + nut — editable source |
-| `tidemark-assembly-v1.step` | Full assembly for visualization |
-
-## Why STEP Format
-
-STEP (Standard for the Exchange of Product Data) is a vendor-neutral CAD format that can be opened in virtually any CAD program: FreeCAD, Fusion 360, SolidWorks, OnShape, CATIA, Inventor, etc.
-
-This ensures the design remains accessible regardless of what software contributors use.
+Open in any CAD program: FreeCAD, Fusion 360, SolidWorks, OnShape, CATIA, Inventor, etc.
 
 ## Modifying the Design
 
-1. Open the STEP file in your preferred CAD tool
+1. Open `TideMark.STEP` in your preferred CAD tool
 2. Make modifications
-3. Export updated STEP file
-4. Export STL at 0.1mm tolerance for printing
-5. Test print and verify: thread engagement between tower and stake, lock screw clamping, eye bolt fit
-6. Submit PR with both files + photos of test print
+3. Export individual parts as STL at 0.1mm tolerance
+4. Test print and verify thread engagement, lock nut fit, cap fit
+5. Submit PR with updated STEP + STL files and photos of test print

@@ -21,7 +21,8 @@ Send with the completed exhibit after site visit and stake installation. Replace
 [CLIENT PHONE]
 
 **From:**
-Engineer
+Enrique Lairet, PE (FL License No. 86574)
+Oasis Engineering, LLC (FL COA No. 35420)
 3702 W Spruce St, #1033
 Tampa, FL 33607
 P: 813-694-8989
@@ -78,8 +79,8 @@ Send photos to [ENGINEER EMAIL / PHONE] for verification. **Do not proceed with 
 
 ### Questions?
 
-Contact Engineer at 813-694-8989 or [EMAIL].
+Contact Enrique Lairet, PE at 813-694-8989 or [EMAIL].
 
 ---
 
-*Oasis Engineering, LLC | oasisengineering.com |*
+*Oasis Engineering, LLC | oasisengineering.com | windcalculations.com*

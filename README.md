@@ -2,20 +2,13 @@
 
 ### Open-source formwork elevation reference stake system
 
+**The thing you're protecting isn't the plastic.** Anyone with calipers and a printer can clone a stake in an afternoon. The IP is the *system* — the PE-stamped elevation exhibit, the field methodology, the service bundle, the brand. None of that lives in an STL file.
+
+---
+
 TideMark is a 3D-printable field tool that helps contractors set formwork to the correct elevation — without a surveyor on site. It's a triangular graduated tower that threads onto a printed ground stake, with an eye bolt for stringline attachment and a sliding lock screw for setting target elevation.
 
 Designed by [Oasis Engineering, LLC](https://oasisengineering.com) — a structural engineering firm specializing in wind load analysis, residential permwork, and pre-construction elevation services.
-
-![Tidemark](hardware/renders/Tidemark_V1.png)
-
-## Build What the Site Actually Needs
-In construction and engineering, teams often deliver the medium instead of the outcome.
-
-The medium is familiar: a plan sheet, a note, or an elevation certificate. Those documents matter, but they are not the end goal.
-
-The real goal is simple: the people in the field need to know the exact elevation of grade, formwork, or finished floor so they can build safely, accurately, and confidently — without second-guessing.
-
-TideMark is designed around that reality. It takes the engineer's elevation intent and turns it into a physical, on-site reference that crews can act on immediately. Traditional exhibits and certificates still have their place; TideMark reduces the friction between "information delivered" and "work built correctly."
 
 ## The Problem
 
@@ -87,6 +80,12 @@ The stake is the delivery mechanism. The exhibit is the product. The methodology
 └─────────────────────────────────────────────────────┘
 ```
 
+## Assembly
+
+![TideMark Assembly](hardware/renders/assembly-full.jpg)
+
+![TideMark Exploded](hardware/renders/assembly-exploded.jpg)
+
 ## Repository Structure
 
 ```
@@ -96,13 +95,19 @@ tidemark/
 │
 ├── hardware/
 │   ├── stl/                     # Print-ready STL files
-│   │   ├── tidemark-tower-v1.stl
-│   │   ├── tidemark-lockscrew-v1.stl
-│   │   └── tidemark-groundstake-v1.stl
+│   │   ├── TrianglePiece.STL    # Graduated triangular tower (16")
+│   │   ├── GroundStake.STL      # Auger-style ground stake
+│   │   ├── HookBolt.STL         # Eye bolt for stringline
+│   │   ├── LockBut.STL          # Lock nut for height clamping
+│   │   └── TopCap.STL           # Triangular cap (bubble + sticker)
 │   ├── source/                  # Editable CAD source files
-│   │   ├── tidemark-tower-v1.step
-│   │   ├── tidemark-lockscrew-v1.step
-│   │   └── tidemark-groundstake-v1.step
+│   │   └── TideMark.STEP        # Full assembly — all components
+│   ├── renders/                 # Product renders
+│   │   ├── assembly-full.jpg
+│   │   ├── assembly-exploded.jpg
+│   │   ├── tidemark-iso-1.jpg
+│   │   └── tidemark-iso-2.jpg
+│   ├── drawings/                # Engineering drawings
 │   ├── BOM.md                   # Bill of materials
 │   └── PRINT-SETTINGS.md        # Recommended slicer settings
 │
@@ -121,13 +126,10 @@ tidemark/
 │   ├── disclaimers.md           # Legal disclaimer language
 │   └── examples/
 │       └── README.md            # Description of example exhibits
-│                                #   (actual exhibits are client work
-│                                #    and not included)
 │
 ├── branding/
-│   ├── tidemark-logo.svg
 │   ├── color-palette.md
-│   └── label-template.svg       # Printable adhesive label for stake
+│   └── (logo and label templates coming)
 │
 ├── templates/
 │   ├── proposal-template.md     # Proposal language for FERE service

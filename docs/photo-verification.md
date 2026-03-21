@@ -83,7 +83,7 @@ Include in your message:
 - Your measured elevation offset (in inches)
 
 **Example message:**
-> "1234 John Rd — photos from today 3/15/2026. Set forms using Screw B as reference. Collar at +3 inches per exhibit. Tape measurement from screw head to top of form confirms 3 inches. Ready for verification before pour scheduled for 3/17."
+> "2798 Robinson Rd — photos from today 3/15/2026. Set forms using Screw B as reference. Collar at +3 inches per exhibit. Tape measurement from screw head to top of form confirms 3 inches. Ready for verification before pour scheduled for 3/17."
 
 ---
 
