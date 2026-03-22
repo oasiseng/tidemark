@@ -11,6 +11,9 @@ Print-ready STL files for all TideMark v1 components.
 | `HookBolt.STL` | Eye bolt for stringline attachment | PLA | Vertical |
 | `LockBut.STL` | Lock nut for height clamping | PLA | Flat |
 | `TopCap.STL` | Triangular cap — holds bubble level + sticker | PETG (white or contrasting) | Flat, top face up |
+### Triangle2Parts:
+| `TrianglePiece_Top.STL` | Graduated triangular tower, 16" tall, 3" faces | PETG (orange) | Vertical, graduation face toward bed | 2 Part Option (Top Portion) for Smaller Printer Plates (fits in 320mm plate)
+| `TrianglePiece_Bott.STL` | Graduated triangular tower, 16" tall, 3" faces | PETG (orange) | Vertical, graduation face toward bed | 2 Part Option (Bottom Portion) for Smaller Printer Plates (fits in 320mm plate)
 
 ## Full Assembly STEP
 
